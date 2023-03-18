@@ -39,7 +39,7 @@ const Product = ({ item, provider, account, dappazon, togglePop }) => {
     <div className="product">
       <div className="product__details">
         <div className="product__image">
-          <image src={item.image} alt="Product" />
+          <img src={item.image} alt="Product" />
         </div>
         <div className="product__overview">
           <h1>{item.name}</h1>
