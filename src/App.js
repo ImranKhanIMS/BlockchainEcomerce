@@ -36,7 +36,7 @@ function App() {
     setProvider(provider)
 
     const network = await provider.getNetwork()
-    console.log(network)
+    // console.log(network)
 
     // Connect to smart contracts (Create JS Versions)
     const dappazon = new ethers.Contract(
